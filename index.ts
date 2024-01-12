@@ -11,13 +11,13 @@ class Singleton {
   }
   
   public someMethod(): void {
-    console.log("¡Método de la instancia Singleton!");
+    console.log("Metodo de la instancia Singleton");
   }
 }
   
 const instance1 = Singleton.getInstance();
 const instance2 = Singleton.getInstance();
   
-console.log(instance1 === instance2); // Debería imprimir true
+console.log(instance1 === instance2);
   
-instance1.someMethod(); // Debería imprimir "¡Método de la instancia Singleton!"
+instance1.someMethod();
